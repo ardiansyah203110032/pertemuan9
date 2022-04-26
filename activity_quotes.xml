@@ -10,7 +10,7 @@
     android:fitsSystemWindows="true"
     tools:context=".ui.QuotesActivity"
     android:background="@drawable/activity_background">
-    #kode program untuk menampilkan sebuah baground dengan menambahkan sebuah gambar.
+    #kode program untuk menampilkan sebuah baground dengan menambahkan sebuah gambar
 
     <RelativeLayout
         android:id="@+id/relativeLayout"
@@ -19,6 +19,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+      #pada kode program diatas ialah Tata letak yang mengatur anak-anaknya menjadi baris dan kolom. TableLayout terdiri dari sejumlah objek TableRow, 
+masing-masing mendefinisikan sebuah baris (sebenarnya, dapat memiliki turunan lain, yang akan dijelaskan di bawah). 
+Wadah TableLayout tidak menampilkan garis batas untuk baris, kolom, atau selnya. Setiap baris memiliki nol atau lebih sel; 
+setiap sel dapat menampung satu objek View. Tabel memiliki kolom sebanyak baris dengan sel terbanyak. Tabel dapat membiarkan sel kosong. 
+Sel dapat menjangkau kolom, seperti dalamnya
+Lebar kolom ditentukan oleh baris dengan sel terluas di kolom itu. Namun,
+TableLayout dapat menentukan kolom tertentu sebagai dapat disusutkan atau diregangkan dengan memanggil setColumnShrinkable() 
+atau setColumnStretchable(). Jika ditandai sebagai dapat disusutkan, lebar kolom dapat diperkecil agar sesuai dengan tabel ke objek induknya. 
+Jika ditandai sebagai dapat diregangkan, lebarnya dapat diperluas agar sesuai dengan ruang ekstra apa pun. Lebar total tabel ditentukan oleh wadah induknya. 
+Penting untuk diingat bahwa kolom dapat menyusut dan dapat diregangkan. Dalam situasi seperti itu, 
+kolom akan berubah ukurannya untuk selalu menggunakan ruang yang tersedia, tetapi tidak pernah lebih. Terakhir, 
+dapat menyembunyikan kolom dengan memanggil setColumnCollapsed().
 
         <ImageButton
             android:id="@+id/backToQuotePage"
