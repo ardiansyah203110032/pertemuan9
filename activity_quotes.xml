@@ -2,6 +2,7 @@
 
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    #kode program untuk mengetahui sebuah lokasi dari sebuah aplikasi tersebut akan ditampilkan.
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,6 +10,7 @@
     android:fitsSystemWindows="true"
     tools:context=".ui.QuotesActivity"
     android:background="@drawable/activity_background">
+    #kode program untuk menampilkan sebuah baground dengan menambahkan sebuah gambar.
 
     <RelativeLayout
         android:id="@+id/relativeLayout"
@@ -21,7 +23,9 @@
         <ImageButton
             android:id="@+id/backToQuotePage"
             android:layout_width="60dp"
+             #memberikan sebuah ukuran pada layout tersebut.
             android:layout_height="60dp"
+             #memberikan sebuah ukuran pada sbeuah layout tersebut.
             android:layout_alignParentStart="true"
             android:layout_centerInParent="true"
             android:layout_marginStart="10dp"
@@ -40,6 +44,8 @@
             android:textStyle="bold"
             android:textSize="24sp"
             android:text="The Best Life Quotes" />
+        #pada sebuah kode program yang dirancang pada textvie tersebuat adalah merupakan sebuah inti dari apa yang akan dikembangkan dengan memberikan sebuah layout,bagr
+        ound, judul dan juga sebuah ukuran tebal dan panjangnya sebuah text.
 
         <ImageButton
             android:id="@+id/myBookmarksImgBtn"
@@ -51,6 +57,8 @@
             android:contentDescription="kembali ke halaman"
             android:src="@drawable/ic_bookmarks"
             android:background="?android:attr/selectableItemBackgroundBorderless"/>
+        #pada kode program yang dirancamg dengan terstruktur didalam imagebutton dengan memberikan sebuah tombol input maupun output yang akan dikembangkan pada sebuah aplkikasi tersebut
+        dengan memberikan sebuah tombol untuk kembali pada menu selanjutnya dan juga untuk kembali pada menu sebelumnya.
 
     </RelativeLayout>
 
@@ -63,7 +71,10 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
-
+        
+        #pada kode program tersebut adalah memberkan ukuran pada sebuah tombol dan juga tampilan yang telah dibar dengan memberi sebuah ukuran dengan melohat dan juga meninjau dari
+        segi desain maupun tampilan.
+        
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/quotesNavHostFragment"
             android:layout_width="match_parent"
