@@ -2,16 +2,22 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.github.gouravkhunger.quotesapp">
+ #kode program sebagai sebuah koneksi yang menampilkan sebuah aktivitas kedalam bentuk halaman
+    yang akan dicompile berikutnya kedalam sebuah activty mainnya.
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    #membutuhkan sebuah koneksi akses untuk menghubungkan perangkat kesebuah jaringan agar bisa menampilkan sebuah output nantinya dalam sebuah aplikasi.
 
     <application
         android:name=".QuotesApplication"
+          #sebuah nama aplikasi dari apa yang sudah dibuat
         android:allowBackup="true"
         android:icon="@drawable/logo_light"
+          #sebuah kode program agar menampilkan dan membuat sebuat logo yang akan nantinya ditampilkan.
         android:label="kata Penyemangat"
         android:roundIcon="@drawable/logo_light"
+         #merupakan sebuah baground agar bisa sebuah tampilan menjadi sebuah tampilan dengan sebuah gambar dengan gambar yang baik.
         android:supportsRtl="true"
         android:theme="@style/SplashScreenTheme">
 
