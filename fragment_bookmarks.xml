@@ -23,3 +23,12 @@
         android:layout_height="match_parent" />
 
 </RelativeLayout>
+
+#pada sebuah kode program diatas adalah sebuah untuk memberikan nilai untuk EditorInfo.actionLabel yang digunakan saat metode input terhubung ke tampilan teks.
+android:imeOptions Fitur tambahan yang dapat Anda aktifkan di IME yang terkait dengan editor untuk meningkatkan integrasi dengan aplikasi Anda.
+android:includeFontPadding Sisakan ruang yang cukup untuk ascender dan descender daripada menggunakan font naik dan turun secara ketat.
+android:inputMethod Jika disetel, menetapkan bahwa TextView ini harus menggunakan metode input yang ditentukan (ditentukan oleh nama kelas yang sepenuhnya memenuhi syarat).
+android:inputType Jenis data yang ditempatkan di bidang teks, digunakan untuk membantu metode input memutuskan bagaimana membiarkan pengguna memasukkan teks.
+android:justificationMode Mode untuk pembenaran.
+android:lastBaselineToBottomHeight Jarak dari bagian bawah TextView ke garis dasar teks terakhir.
+android:letterSpacing Teks spasi-huruf.
